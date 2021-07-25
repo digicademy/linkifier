@@ -1,0 +1,31 @@
+{
+    "name": "digicademy/linkifier",
+    "type": "typo3-cms-extension",
+    "description": "Configure link handlers to any DB record by table/field/value",
+    "homepage": "https://www.adwmainz.de",
+    "authors": [
+        {
+          "name": "Torsten Schrade",
+          "email": "Torsten.Schrade@adwmainz.de",
+          "role": "Developer",
+          "homepage": "https://www.adwmainz.de"
+        }
+    ],
+    "license": ["GPL-2.0+"],
+    "keywords": ["TYPO3", "Digital Humanities"],
+    "support": {
+        "issues": "https://github.com/digicademy/linkifier/issues"
+    },
+    "version": "2.0.0",
+    "require": {
+        "typo3/cms-core": ">=8.7.0 || <=10.4.99"
+    },
+    "replace": {
+        "typo3-ter/linkifier": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+          "Digicademy\\Linkifier\\": "Classes/"
+        }
+    }
+}
